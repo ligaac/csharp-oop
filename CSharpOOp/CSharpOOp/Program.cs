@@ -10,10 +10,19 @@ namespace CSharpOOp
             int x = 3;
 
             // animal este o instanță a clasei Animal
-            Animal animal = new Animal("Tom");
-            Animal mouse = new Animal("Jerry");
-            Console.WriteLine(animal.GetName());
+            Cat cat = new Cat("Tom");
+            Mouse mouse = new Mouse("Jerry");
+
+            Console.WriteLine(cat.GetName());
+            // animal.SetName("Another Tom");
+            // Console.WriteLine(animal.GetName());
             Console.WriteLine(mouse.GetName());
+
+            // OOP building blocks:
+            // - polimorfism
+            // - moștenire
+            // - încapsulare
+            // - abstractizare
         }
     }
 }

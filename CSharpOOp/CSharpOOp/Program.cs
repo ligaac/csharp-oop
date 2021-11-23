@@ -9,9 +9,17 @@ namespace CSharpOOp
         {   //int float char etc ect ->tipuri primitive;
             int x = 3;
             //animal este o instanta a clasei Animal
-            Animal animal = new Animal(name:"Tom");
-            Animal mouse = new Animal(name: "Jerrry");
-            Console.WriteLine(animal.GetName());
+            Cat cat = new Cat(name:"Tom");
+            Mouse mouse = new Mouse(name: "Jerry");
+            Console.WriteLine(cat.GetName());
+            //cat.SetName("Another Tom");
+          //  Console.WriteLine(cat.GetName());
+            Console.WriteLine(mouse.GetName());
+            //OOP building block:
+            //polimorfism
+            //mostenire
+            //incapsulare
+            //abstractizare
         }
     }
 }

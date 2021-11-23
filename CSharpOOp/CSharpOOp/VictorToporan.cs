@@ -7,6 +7,7 @@ namespace CSharpOOp
     {
         // atribut / filed
         private string name;
+        public string type;
 
         public Animal()
         {

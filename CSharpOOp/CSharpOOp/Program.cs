@@ -16,6 +16,20 @@ namespace CSharpOOp
             // cat.setName("NewCatName");
             // Console.WriteLine(cat.getName());
             Console.WriteLine(mouse.getName());
+            Animal anim1 = cat as Animal;
+            Animal anim2 = mouse as Animal;
+            Animal[] animList = new[] { anim1, anim2 };
+            foreach (var animal in animList)
+            {
+                if (animal is Cat)
+                {
+                    Console.WriteLine("Is cat");
+                }
+                else
+                {
+                    Console.WriteLine(("Is Mouse"));
+                }
+            }
         }
     }
     

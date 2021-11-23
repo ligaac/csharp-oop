@@ -8,7 +8,7 @@ namespace CSharpOOp
         {
             // animal este o instanta a clasei Animal
             Animal animal = new Animal();
-            Console.WriteLine(animal.name);
+            Console.WriteLine(animal.GetName());
         }
     }
 }

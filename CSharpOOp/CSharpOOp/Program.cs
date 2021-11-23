@@ -2,11 +2,14 @@
 
 namespace CSharpOOp
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //int float char
+            int x = 3;
+            Animal animal = new Animal();
+            Console.WriteLine(animal.GetName());
         }
     }
 }

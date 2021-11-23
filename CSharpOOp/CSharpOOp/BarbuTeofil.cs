@@ -1,7 +1,7 @@
 ﻿namespace CSharpOOp
 {
-    public class BarbuTeofil
+    public class Animal
     {
-        
+        public string name;
     }
 }

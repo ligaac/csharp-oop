@@ -18,6 +18,22 @@ namespace CSharpOOp
             // Console.WriteLine(animal.GetName());
             Console.WriteLine(mouse.GetName());
 
+            var animal1 = cat as Animal;
+            var animal2 = mouse as Animal;
+            Animal[] myList = new[] { animal1, animal2 };
+            foreach (var animal in myList)
+            {
+                if (animal is Cat)
+                {
+                    Console.WriteLine("Is cat");
+                }
+                else
+                {
+                    Console.WriteLine("is mouse");
+                }
+            }
+            Console.WriteLine(animal1.GetName());
+
             // OOP building blocks:
             // - polimorfism
             // - moștenire

@@ -8,6 +8,7 @@ namespace CSharpOOp
     {
         // atribut / field
         private string name;
+        public string type;
 
         // public Animal()
         // {

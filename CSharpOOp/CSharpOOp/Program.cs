@@ -6,12 +6,13 @@ namespace CSharpOOp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             //int, float, char, etc, etc -> tipuri primitive
-            Animal animal = new Animal();
+            Cat cat = new Cat("Tom");
+            Mouse mouse = new Mouse("Jerry");
             //animal este o instanta a clasei Animal
-            animal.name = "some animal here";
-            Console.WriteLine(animal.name);
+           
+            Console.WriteLine(cat.GetName());
+            Console.WriteLine(mouse.GetName());
         }
     }
 }

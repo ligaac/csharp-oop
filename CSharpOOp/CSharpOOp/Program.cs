@@ -10,10 +10,20 @@ namespace CSharpOOp
             int a = 3;
 
             // animal, mouse -> instances
-            Animal animal = new Animal("AnimalName");
-            Animal mouse = new Animal("MouseName");
-            Console.WriteLine(animal.getName());
+            Cat cat = new Cat("CatName");
+            Mouse mouse = new Mouse("MouseName");
+            Console.WriteLine(cat.getName());
+            // cat.setName("NewCatName");
+            // Console.WriteLine(cat.getName());
             Console.WriteLine(mouse.getName());
         }
     }
+    
+    /*
+     * OOP building blocks:
+     * - incapsulare => hide vars
+     * - abstractizare => hide functionality
+     * - polimorfism
+     * - mostenire
+     */
 }

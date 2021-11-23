@@ -8,8 +8,20 @@ namespace CSharpOOp
         {
             //int float char
             int x = 3;
-            Animal animal = new Animal();
-            Console.WriteLine(animal.GetName());
+            
+            Cat cat = new Cat("Tom");
+            Mouse mouse = new Mouse("Jerry");
+            
+            Console.WriteLine(cat.GetName());
+            Console.WriteLine(mouse.GetName());
+
+            
         }
     }
+    
+    //OOP building blocks
+    //-polimorfism
+    //-mostenire
+    //-incapsulare
+    //-abstractizare
 }

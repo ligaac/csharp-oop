@@ -16,9 +16,51 @@ namespace CSharpOOp
             this.name = name;
         }
 
-        public string GetName()
+        //getter
+        public virtual string GetName()
         {
+            if (name.Contains("o"))
+            {
+                return name.Replace("o", "a");
+            }
+
             return name;
         }
+
+        //setter
+        public void SetName(string name)
+        {
+            this.name = name.ToLower();
+            
+        }
+
     }
-}
+
+    //mostenire
+        public class Cat : Animal
+        {
+            public Cat(string name) : base(name)
+            {
+                
+            }
+
+            public override string GetName()
+            {
+                var baseName = base.GetName();
+                return baseName + " The Cat ";
+            }
+        }
+        
+        public class Mouse : Animal
+        {
+            public Mouse(string name): base(name){}
+            
+            public override string GetName()
+            {
+                var baseName = base.GetName();
+                return baseName + " The Mouse ";
+            }
+        }
+        
+        
+    }

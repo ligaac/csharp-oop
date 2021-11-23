@@ -6,7 +6,9 @@ namespace CSharpOOp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // animal este o instanta a clasei Animal
+            Animal animal = new Animal();
+            Console.WriteLine(animal.name);
         }
     }
 }

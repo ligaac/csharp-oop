@@ -4,7 +4,7 @@ namespace CSharpOOp
     public class Animal
     {
         // atribut / filed
-        public string name;
+        private string name;
 
         public Animal(string name) // constructor
         {
